@@ -18,7 +18,7 @@ Requirments:
 
 How to use the toolset:
 
-chmod +x unfrozen_binary_<name>.py
-./unfrozen_binary_<name>.py binary_file_based_on_<name>.exe
+```chmod +x unfrozen_binary_<name>.py
+./unfrozen_binary_<name>.py binary_file_based_on_<name>.exe```
 
 More about the decompresion and decompilation Python frozen binaries you can read in [my presentation about hacking Python binaries](https://github.com/PyStok/PyStok-1/tree/master/Hackowanie%20zamro%C5%BConych%20binari%C3%B3w) (sorry, polish only).

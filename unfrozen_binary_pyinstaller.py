@@ -16,24 +16,6 @@ import zlib
 from common import uncompyle_decompilation
 from common import unpyc3
 
-# import logging
-#
-# logging.basicConfig(level=logging.INFO)
-#
-# logger = logging.getLogger(__name__)
-# logger.setLevel(logging.INFO)
-#
-# if os.path.exists('hello.log'):
-#     os.remove('hello.log')
-#
-# handler = logging.FileHandler('hello.log')
-# handler.setLevel(logging.INFO)
-#
-# formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# handler.setFormatter(formatter)
-#
-# logger.addHandler(handler)
-
 
 class UnfrozenPyInstaller(object):
     def __init__(self, exe_file):
@@ -239,9 +221,6 @@ class UnfrozenPyInstaller(object):
 
                 for key in toc.keys():
                     ispkg, pos, length = toc.get(key)
-                    #print "\tispkg:", ispkg
-                    #print "\tPosition:", pos
-                    #print "\tLength:", length
 
                     archive.seek(pos)
 
