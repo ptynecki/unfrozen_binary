@@ -14,7 +14,7 @@ Requirments:
 
 * [pefile](https://pypi.python.org/pypi/pefile) - Portable Executable reader module,
 * [unpyc3](https://github.com/figment/unpyc3) - Decompiler for Python 3.3,
-* [uncompyle2](https://github.com/wibiti/uncompyle2) - Decompiler for Python 3.7.
+* [uncompyle2](https://github.com/wibiti/uncompyle2) - Decompiler for Python 2.7.
 
 How to use the toolset:
 
