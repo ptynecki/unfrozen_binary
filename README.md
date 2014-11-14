@@ -10,7 +10,7 @@ unfrozen_binary contains:
 * `unfrozen_binary_bbfreeze.py` - works on bbfreeze binaries,
 * `unfrozen_binary_pyinstaller.py` - works on PyInstaller binaries.
 
-Requirments:
+Requirements:
 
 * [pefile](https://pypi.python.org/pypi/pefile) - Portable Executable reader module,
 * [unpyc3](https://github.com/figment/unpyc3) - Decompiler for Python 3.3,
