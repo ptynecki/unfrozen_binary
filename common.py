@@ -15,10 +15,10 @@ import pefile
 python_version = sys.version_info[:2]
 
 if python_version[0] == 3:
-    from decompilers.unpyc3.unpyc3 import dec_module
+    from unpyc3.unpyc3 import dec_module
 elif python_version[0] in (1, 2):
-    from decompilers.uncompyle2 import uncompyle_file
-    from decompilers.uncompyle2 import Walker
+    from uncompyle2 import uncompyle_file
+    from uncompyle2 import Walker
 else:
     sys.exit(-1)
 
